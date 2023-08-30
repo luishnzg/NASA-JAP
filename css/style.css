@@ -1,0 +1,33 @@
+main {
+  min-height: calc(100vh - 160px);
+}
+
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  margin: 10px;
+}
+
+.card-img-top {
+  max-height: 200px;
+}
+
+.card-body {
+  padding: 5px;
+}
+
+.card-text {
+  max-height: 300px;
+  overflow: auto;
+}
+
+.fecha {
+  padding: 0px 5px 5px 5px;
+  margin: 0px;
+  color: gray;
+  font-size: 0.8rem;
+}
